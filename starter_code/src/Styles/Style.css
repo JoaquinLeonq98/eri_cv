@@ -334,7 +334,9 @@ legend {
     align-items: baseline;
     justify-content: space-between;
   }
-
+  #boton__responsive {
+    display: none;
+  }
   .boton__responsive {
     background-color: rgb(51, 51, 185);
     color: white;
