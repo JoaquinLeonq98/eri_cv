@@ -1,16 +1,298 @@
 <!DOCTYPE html>
 <!-- Change lang propertie -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="src/Styles/Style.css" />
     <!-- Change document title  -->
-    <title>Document</title>
-    <!-- Here goes your styles -->
+    <title>CV Joaquín León</title>
+  </head>
 
-</head>
-<body>
-    
-</body>
-</html>l
+  <!-- Her e goes your styles -->
+  <body>
+    <header>
+      <div class="nav_br">
+        <nav class="navegacion">
+          <a class="inicio" href="#Inicio"><h3 class="logo">LOGO</h3></a>
+          <a class="inicio" href="#sobre mi">Hola</a>
+          <a class="inicio" href="#Proyectos">Proyectos</a>
+          <a class="inicio" href="#contacto">Contacto</a>
+        </nav>
+        <nav class="navegacion__responsive">
+          <a class="inicio" href="#Inicio"><h3 class="logo">LOGO</h3></a>
+          <button class="boton__responsive">Descargar Curriculum</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Presentación -->
+    <section class="presentacion__general">
+      <!-- Contenedor padre Flex -->
+      <div class="contenedor">
+        <!-- contenedor hijo -->
+        <div class="contenedor__flex">
+          <h3 class="Saludo">¡Hola a todos!</h3>
+          <h1 class="Presentación">Soy Joaquín León</h1>
+          <div class="contenedor__parrafo">
+            <p>
+              Fullstack developer que le encanta implemtar soluciones sencillos a problemas
+              complejos
+            </p>
+          </div>
+
+          <div class="contenedor__icons">
+            <div class="ico">
+              <a href="contacto"
+                ><img src="src/img/icon-phone.png" alt="contacto telefonico"
+              /></a>
+            </div>
+            <div class="ico">
+              <a href="contacto"><img src="src/img/mail.png" alt="correo electronico" /></a>
+            </div>
+            <div class="ico">
+              <a href="https://www.instagram.com/____jleon____/"
+                ><img src="src/img/icon-instagram.png" alt="Instagram de Joaquin"
+              /></a>
+            </div>
+            <div class="ico">
+              <a href="https://twitter.com/XxJoacoLeonxX"
+                ><img src="src/img/icon-twitter_squared.png" alt="twitter de Joaquin"
+              /></a>
+            </div>
+          </div>
+          <button class="boton">Descargar Curriculum</button>
+        </div>
+
+        <!-- contenedor hijo -->
+        <div class="contenedor__flex">
+          <div class="caja_foto">
+            <img src="src/img/odvb5AQU_400x400.jpg" alt="Joaquín Observando" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de comentarios -->
+    <section class="comentarios">
+      <p>Participé en @generationMX y realicé proyectos como a continuación veremos.</p>
+
+      <p>Aquí hay algunos que me gustaría compartir.</p>
+      <svg
+        width="82"
+        height="81"
+        viewBox="0 0 82 81"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M41.0005 16.7744V63.7458"
+          stroke="#310A90"
+          stroke-width="6.71021"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M64.4856 40.2607L40.9999 63.7465L17.5142 40.2607"
+          stroke="#310A90"
+          stroke-width="6.71021"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </section>
+
+    <!-- Seccion de  Proyectos -->
+    <section>
+      <div class="contenedor" id="mi_proyecto">
+        <div class="contenedor__flex">
+          <h3 class="mi_proyecto">¡Mi Proyecto</h3>
+          <div class="contenedor__texto">
+            <p>
+              Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como
+              desarrollador Front-End.
+            </p>
+          </div>
+          <div class="contenedor__botones">
+            <button class="boton">Ver Proyecto</button>
+            <button class="boton ver_codigo" id="ver__codigo">Ver Codigo</button>
+          </div>
+        </div>
+
+        <!-- contenedor hijo -->
+        <div class="contenedor__flex">
+          <div class="caja_foto">
+            <img src="src/img/Captura de pantalla 2022-01-20 131332.png" alt="Set-up" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recomendaciones -->
+    <section>
+      <div class="contenedor__recomendacion">
+        <p class="recomendacion">
+          "Joaquin ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que
+          nos hubiera llevado 6 meses solo les llevó 1,5 meses ".
+        </p>
+        <p>Pablo Jimenez López</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="contenedor__proyectos">
+        <div class="contenedor__flex">
+          <h3 class="mi_proyecto">DC Comics</h3>
+          <div class="contenedor__texto">
+            <p>
+              Es el sitio oficial de DC Comics Entertainment. Explore películas, personajes,
+              cómics, programas de televisión, videos y más oficiales de Marvol.
+            </p>
+          </div>
+          <div class="contenedor__botones">
+            <button class="boton">Ver Proyecto</button>
+            <button class="boton ver_codigo" id="ver__codigo">Ver Codigo</button>
+          </div>
+        </div>
+
+        <!-- contenedor hijo -->
+        <div class="contenedor__flex">
+          <div class="caja_foto">
+            <img src="src/img/Dc.jpg" alt="Dc comics" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recomendaciones -->
+    <section>
+      <div class="contenedor__recomendacion">
+        <div class="contenedor__foto">
+          <img
+            class="imagen__recomendacion"
+            src="src/img/272040877_4285361664896659_3254539307191361569_n.jpg"
+            alt="Computadora con vista al atardecer"
+          />
+        </div>
+
+        <p class="recomendacion">
+          "JC ha sido una persona que demuestra sus habilidades y ha crecido mucho".
+        </p>
+        <p>Pablo Jimenez López</p>
+      </div>
+    </section>
+
+    <!-- Contenedor netflix 2 -->
+    <section>
+      <div class="contenedor" id="mi_proyecto">
+        <div class="contenedor__flex">
+          <h3 class="mi_proyecto">Netflix 2</h3>
+          <div class="contenedor__texto">
+            <p>
+              Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando
+              quieras.
+            </p>
+          </div>
+          <div class="contenedor__botones">
+            <button class="boton">Ver Proyecto</button>
+            <button class="boton ver_codigo" id="ver__codigo">Ver Codigo</button>
+          </div>
+        </div>
+
+        <!-- contenedor hijo -->
+        <div class="contenedor__flex">
+          <div class="caja_foto">
+            <img src="src/img/maxresdefault.jpg" alt="Luis Miguel la Serie" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contenedor__recomendacion">
+        <div class="contenedor__foto">
+          <img
+            class="imagen__recomendacion"
+            src="src/img/descargar.png"
+            alt="Logo de netflix"
+          />
+        </div>
+
+        <p class="recomendacion">
+          "Por primera vez en la historia de nuestra empresa, aparecimos en todas las
+          plataformas en las que trabajamos".
+        </p>
+        <p>Señor misterioso/ Netflix 2</p>
+      </div>
+    </section>
+    <section class="contenedor-form">
+      <div class="caja_contacto">
+        <h2 class="caja_contacto-hijo">Contacto</h2>
+      </div>
+      <form class="formulario">
+        <fieldset>
+          <legend>
+            contactame si estas interesado en trabajar conmigo llenando el siguiente formulario
+          </legend>
+          <div class="contenedor_campos">
+            <div class="campo">
+              <label for="">Nombre</label>
+              <input class="input-text" type="text" placeholder="Nombre y Apellidos" />
+            </div>
+            <div class="campo">
+              <label for="">Correo</label>
+              <input class="input-text" type="email" placeholder="Email" />
+            </div>
+            <div class="campo">
+              <label for="">Telefono</label>
+              <input class="input-text" type="tel" placeholder="Telefono o celular" />
+            </div>
+            <div class="campo">
+              <label for="">Mensaje</label>
+              <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <!--contendor de los campos-->
+          <div class="enviar">
+            <input class="boton" type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <div class="pie_de">
+        <h4 class="logo__fotter">LOGO</h4>
+        <p class="parrafo__fotter">
+          Hecho por Joaquín León Copyright 2021 - Todos los derechos reservados.
+        </p>
+        <div class="contenedor__icons">
+          <div class="ico">
+            <a href="contacto"
+              ><img src="src/img/icon-phone.png" alt="contacto telefonico"
+            /></a>
+          </div>
+          <div class="ico">
+            <a href="contacto"><img src="src/img/mail.png" alt="correo electronico" /></a>
+          </div>
+          <div class="ico">
+            <a href="https://www.instagram.com/____jleon____/"
+              ><img src="src/img/icon-instagram.png" alt="Instagram de Joaquin"
+            /></a>
+          </div>
+          <div class="ico">
+            <a href="https://twitter.com/XxJoacoLeonxX"
+              ><img src="src/img/icon-twitter_squared.png" alt="twitter de Joaquin"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
